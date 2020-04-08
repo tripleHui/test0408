@@ -13,25 +13,25 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AVksRZj/////AAABmfnCd9qJyEwAlbPqoCpe7foaTRpRO/xDiByqhzrVjsdszhY2fqmVQYN9jDouliHSDNzCu29lvqLhR+EXfv8VFhnBa2x6xiMdyX0zSscLSAvwdFwcAvKplSR8svDHxR+f0WI5o03xps8B4zbgW54S/3aRWIKNxPxhj3erj29ysjiHJPMdhPSXtP4dW2EYhGd/Eun0xXf6EA3FFnsj2xf2rWrwE/JWF+udtDJrWhBWNhihMMh0EWKYjAn4cy0fKmpqRuq75o+weslaglYM3Qydr/J6N6C0tG3IgZbc0Lo91Jc0+6D7fctrUlLNLq+lLSxBrl1pQQzCdmHpa28bFL/cwhx9ZByma0WKQBXlTawDxQA/
-    ufoLicenseKey: QWJvS29YRC8vLy8vQUFBQUtLdnRCV3BsSUVlcHMvaUUyVDc5NGk5RHhvdGNPNzMzaVdQZk1CRnBUN2gwN01jQmxLRGt0YzFINTRlbG9OZEppdTVWaURCU1JrK3loZG1LOUE4bTdNRUdSVDRqenB6c3NWemxUQnp2MGNmeFp1VDJEVFFsVW4zbWovRDhXVVBVV3pIMENGd2tlYWQ5TjZHNXpMdTloY0FnT3pWTERqbmF6RjVQeU0rTDdZN29oa0dCaWdHM3N5cDczRElnc0hNdzR0cE9wYU9KampZRXA5K2dOUHpYSytNdGlqeGlCaXZDYnVVbDlpeDI2RVFhY01XYytBZUxLK1krMlpibDFMeEYyZnZGaU5NOGZMWGpaamFLT2xlMCtWOHJEVGZHbis0bGh0U295b05zN3Jva25ueFRqYUZJU2o1Ylc0bkZOdDBLTEI5dHVxQ2U0RC9ZLzZhcWt0VE1pVHE3dHBWTHlSMDlmTTNnWDIzbmMxWW8=
+    vuforiaLicenseKey: 
+    ufoLicenseKey: QWJGdjNtYi8vLy8vQUFBQUtDM2ZyWk95dzBXSWhJVC9kNXBOZjk5WU1yaFEyS1BlUVprTEltaXJUUklPbDBnUGJiM3FlOVk1dnhldktud3BwRzNBSHBkWXFLL1k2SUxRbHJKOVFlN3JDdWxPVHZuWUhzcHNNSWRhaEpvdFBmZWtxYUtURkhEWDJJNEVVMWEyM3dueVVLMEpodE9RTVY3ZWMwR29MQ3B6MXE5dVZnV0FZeW9JTDZNaXFjajQ1MmFORVl1aWhaVlc2YTlvaHk2bXFYWGw4VkdwR1RxM09vVFNUNmJMZnh3TFJlY2ZPSmxURmVVaFNFMWRNM2hkZ1pWUTc2T1VjQ3ZsRDVxRThnUlVYWmpZaTBzODA0MWVIOGNWODNvdTU5dlk5akZtN0tWSjd4UmFSbW1udnRPTnhMYnU0MGJxd25oYnBtUGxFVmZHTHdJNUl4N1dDa3A5a1RlQ0tWMGpTajZvc2RsNnEwOGtPNG0zRjJtZDdUUFE=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
     maxSimultaneousObjectTargets: 1
-    useDelayedLoadingObjectTargets: 1
+    useDelayedLoadingObjectTargets: 0
     modelTargetRecoWhileExtendedTracked: 1
-    version: 8.3.8
-    eulaAcceptedVersions: '{"Values":["8.1","8.3"]}'
+    version: 1.0.0
+    eulaAcceptedVersions: 
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingLayer: 31
     eyewearType: 0
     stereoFramework: 0
     seeThroughConfiguration: 0
-    viewerName: Generic Cardboard
-    viewerManufacturer: Vuforia
-    useCustomViewer: 1
+    viewerName: 
+    viewerManufacturer: 
+    useCustomViewer: 0
     customViewer:
       Version: 0
       Name: 
@@ -45,21 +45,20 @@ MonoBehaviour:
       FieldOfView: {x: 0, y: 0, z: 0, w: 0}
       ContainsMagnet: 0
   database:
-    disableModelExtraction: 1
+    disableModelExtraction: 0
   videoBackground:
     clippingMode: 0
     numDivisions: 2
-    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
-      type: 3}
-    matteShader: {fileID: 4800000, guid: 66d0d78a3000021448b598bb54a3bfdf, type: 3}
+    videoBackgroundShader: {fileID: 0}
+    matteShader: {fileID: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoInitTracker: 1
-    autoStartTracker: 1
-    arcoreRequirement: 1
+    autoInitTracker: 0
+    autoStartTracker: 0
+    arcoreRequirement: 0
     trackingMode: 1
     posePrediction: 0
-    modelCorrectionMode: 2
+    modelCorrectionMode: 0
     modelTransformEnabled: 0
     modelTransform: {x: 0, y: 0.1, z: -0.1}
   smartTerrain:
